@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jrails.ModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-23T02:32:13" hostname="赵云" time="0.015">
+  <properties/>
+  <testcase name="BookTest" classname="jrails.ModelTest" time="0.015"/>
+  <system-out><![CDATA[find
+-1936351296@Programming Languages: Build, Prove, and Compare@Norman Ramsey@2222
+Programming Languages: Build, Prove, and Compare
+Norman Ramsey
+2222
+all
+Programming Languages: Build, Prove, and Compare
+Norman Ramsey
+2222
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

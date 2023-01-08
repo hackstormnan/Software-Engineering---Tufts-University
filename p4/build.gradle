@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.18
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+    ext {
+        deps = [
+                hamcrest : 'org.hamcrest:hamcrest-all:1.3',
+                jUnit             : 'junit:junit:4.12',
+        ]
+    }
+}
+
+

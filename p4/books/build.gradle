@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.18
+
+dependencies {
+    testImplementation deps.hamcrest
+    testImplementation deps.jUnit
+    implementation project(':jrails')
+}
+
+application {
+    mainClass.set('books.Main')
+}

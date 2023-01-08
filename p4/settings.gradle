@@ -1,0 +1,4 @@
+rootProject.name = 'p4'
+
+include 'jrails'
+include 'books'
