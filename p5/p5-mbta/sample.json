@@ -1,0 +1,8 @@
+{
+  "lines": {
+    "red": [ "A", "B", "D", "G", "F" ]
+  },
+  "trips": {
+    "Aardvark": [ "A", "B", "D"]
+  }
+}

@@ -1,0 +1,18 @@
+# Write down your multi-threading designs here!
+
+I write two loops to get every train and every passenger respectively
+I also assign a unique lock to each station.
+
+For the train move, I first lock the station where train at, then when train is moving,
+I lock the train. Then, when the train arrive at the next station, I unlock the previous station
+and lock the station that train just move to, and unlock the train.
+
+For the passenger, I give passenger a field: train recording which train the passenger is currently at.
+If the passenger is at the station, train is null. When train is null, the passenger waiting for the right train.
+When passenger board, the lock on this right train is unlock. When the passenger is on the train, this train is locked
+and when the train arrive to the next station that passenger want to go, the passenger deboard and the train is unlocked.
+
+There is also a lock, to protect the count that will record how many passengers finish their trips. When all
+passengers finish their trips, the train generally stops.
+
+I let the train sleep for 200ms when they arrive at the stations to increase the program's running speed.

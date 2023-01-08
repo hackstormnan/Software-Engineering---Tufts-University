@@ -1,0 +1,3 @@
+#!/bin/sh
+
+CLASSPATH=${PWD}/hamcrest-2.2.jar:${PWD}/junit-4.13.2.jar:${PWD}/gson-2.8.9.jar:. java org.junit.runner.JUnitCore "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+CLASSPATH=${PWD}/gson-2.8.9.jar:. java Verify "$@"
